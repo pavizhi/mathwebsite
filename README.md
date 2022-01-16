@@ -98,25 +98,29 @@ Publish the website in the given URL.
 <body>
     <div class="container">
         <div class="content">
-            <h1 class="text"><B>VOLUME OF CUBE</B></h1>
+            <h1 class="text"><B>AREA OF TRIANGLE</B></h1>
             <form>
-                <div class="formelement"><label for="aEdit">Edge:</label>
+                <div class="formelement"><label for="aEdit">Base:</label>
                     <input type="number" id="aEdit" value="0"/>
                     <lable for="aedit">Meters</lable>
                 </div><br>
                 
-                
+                <div class="formelement">
+                    <label for="bEdit">Height:</label>
+                    <input type="number" id="bEdit" value="0"/>
+                    <lable for="aedit">Meters</lable>
+                </div>
                 <div class="formelement">
                     <input type="button" value="Calculate" id="AddButton"/>
                 </div>
                 
                 <div class="formelement">
-                    <label for="cEdit">Volume:</label>
+                    <label for="cEdit">Area:</label>
                     <input type="text" id="cEdit" value="0" readonly />
-                    <lable for="aedit">cm<sup>3</sup></lable>
+                    <lable for="aedit">Meter<sup>2</sup></lable>
                 </div><br>
                 <div class=formelement>
-                   
+                    [FORMULA:AREA OF TRIANGLE = BASE*HEIGHT(b*h)]  
                 </div>
             </form>
 
@@ -152,7 +156,7 @@ Publish the website in the given URL.
                     <lable for="aedit">cm</lable><sup>3</sup>
                 </div><br>
                 <div class=formelement>
-                   
+                    [FORMULA:VOLUME OF CUBOID = HEIGHT*LENGTH*BREADTH(h*l*b)]
                 </div>
             </form>
 
@@ -226,7 +230,7 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 
-![output](./website.png)
+![output](./mathsweb.png)
 
 ## Result:
 
